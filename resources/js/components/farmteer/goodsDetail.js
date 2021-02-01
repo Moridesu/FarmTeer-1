@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-function GoodsDetail(props) {
+function goodsDetail(props) {
 
     const [farmlist, setFarmlist] = useState([]);
 
@@ -11,8 +11,8 @@ function GoodsDetail(props) {
 
     const getFarmlist = async () => {
         // console.log(props.match)
-        const response = await axios.get(`/api/gdetail/${props.match.params.id}`);
-        setFarmlist(response.data.farmlist)
+        const response = await axios.get(`/api/good/${props.match.params.id}`);
+        setFarmlist(response.data.good)
     }
 
     return (
@@ -38,4 +38,4 @@ function GoodsDetail(props) {
     );
 }
 
-export default GoodsDetail;
+export default goodsDetail;

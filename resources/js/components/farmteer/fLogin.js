@@ -14,7 +14,7 @@ function fLogin() {
                         <p>
                             パスワード：<input type="password"/>
                         </p>
-                        <input type="submit" className="farm-button" value="ログイン"/>
+                        <Link to="/fgoods"><input type="submit" className="farm-button" value="ログイン"/></Link>
                     </form>
                 </div>
             </div>

@@ -113,8 +113,20 @@ Route::post('/goodsadd', function (Request $request){
     $gadd->save();
 });
 
+<<<<<<< HEAD
 /*　一般ユーザーの一覧表示*/
 Route::get('/gusers',function (Request $request){
+=======
+/**商品の更新 */
+Route::put('/goods/{id}',function(Request $request,$id){
+    $good = App\farmlist::find($id);
+    $good->state = $request->state;
+    $good->save();
+    return response("OK", 200);
+});
+
+Route::get('/guser',function(Request $request){
+>>>>>>> d11005a36b0cdf419d6614fbfef869457b6f7666
     $gusers = App\general::all();
     return response()->json(['gusers' => $gusers]);
 });
@@ -154,4 +166,9 @@ Route::post('/creditadd', function (Request $request){
 Route::get('/credits',function (Request $request){
     $credits = App\credit::all();
     return response()->json(['credits' => $credits]);
+});
+
+/**ログ詳細表示 */
+Route::get('/log/{log}',function(App\log $log){
+    return response()->json(['log' => $log]);
 });

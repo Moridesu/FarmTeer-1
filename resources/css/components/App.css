@@ -366,6 +366,10 @@
   color: white;
   background-color:  rgb(231, 146, 49);
 }
+.form .goodtable{
+  width: 700px;
+  text-align: center;
+}
 
 /*商品登録画面*/
 .farm-page {

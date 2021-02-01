@@ -17810,7 +17810,11 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
+<<<<<<< HEAD
 exports.push([module.i, "* {\r\n    font-family: '\\30E1\\30A4\\30EA\\30AA';\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n    z-index: 10;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-text2{\r\n  float: left;\r\n  text-align: right;\r\n  width: 35%;\r\n}\r\n.footer-text2 img{\r\n  height: 270px;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: right;\r\n    color:#444;\r\n    float: left;\r\n    width: 60%;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button{\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*2020/11/20 Sugimori*/\r\n  .farmlogin{\r\n    font-size: 20px;\r\n  }\r\n\r\n  .form .farm-button:hover,.form .farm-button:active,.form .farm-button:focus, .farmbtn:hover {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n\r\n  .form .farm-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 20px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n/*Top画面レイアウト*/\r\n.photos {\r\n\tposition: relative;\r\n  text-align: center;\r\n  margin-bottom: 100px;\r\n\twidth: 100%;\r\n\theight: 250px;\r\n}\r\n.item2{\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  width: 880px;\r\n  position: absolute;\r\n}\r\n\r\n.top-layout{\r\n  display: flex;\r\n}\r\n.top-item-list{\r\n  width: 100%;\r\n  margin: 40px;\r\n  text-align: left;\r\n}\r\n.top-item-list img{\r\n  width: 250px;\r\n  margin-right: 10px;\r\n}\r\n.top-item-list h3{\r\n  color:rgb(96, 151, 114);\r\n  border-bottom:solid 1.5px rgb(96, 151, 114);\r\n}\r\n.top-font{\r\n  padding-left:20%;\r\n  text-align: left;\r\n  font-size: 20px;\r\n}\r\n.general-top{\r\n  padding-top: 90px;\r\n  text-align: right;\r\n}\r\n.general-top .koukoku{\r\n  padding-right: 14%;\r\n}\r\n\r\n/*商品詳細画面レイアウト*/\r\n.products-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n.title{\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n}\r\n.products-page img {\r\n  width: 70%;\r\n}\r\n.price{\r\n  font-size: 16px;\r\n  margin: 20px;\r\n}\r\n.product-layout{\r\n  font-size: 16px;\r\n  text-align: right;\r\n}\r\n.product{\r\n  text-align: left;\r\n  padding: 20px;\r\n  background-color: white;\r\n  margin-bottom: 20px;\r\n}\r\n.product-layout input{\r\n  background-color: white;\r\n  width: 500px;\r\n  margin: 0 0 10px 30px;\r\n  text-align: center;\r\n}\r\n\r\n/*購入画面*/\r\n.buy-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 16px;\r\n}\r\n\r\n/*農家管理者の画面*/\r\n.farm-top,list-form{\r\n    padding-top: 80px;\r\n    /*margin: auto auto 10px auto;*/\r\n}\r\n\r\n.farm-seller{\r\n  width: 80%;\r\n  background-color: #f3f2f2;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-top p{\r\n  padding-left: 20%;\r\n  text-align: left;\r\n  font-size: 50px;\r\n}\r\n\r\n.farm-top h1{\r\n  font-weight: bold;\r\n  font-size: 100px;\r\n}\r\n\r\n.farm-top h2{\r\n  padding-top: 30px;\r\n  font-size: 60px;\r\n}\r\n\r\n.farmk-size{\r\n  width: 60%;\r\n}\r\n\r\n.farmbtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(54, 107, 72);\r\n}\r\n\r\n.column {\r\n  height: 100vh;\r\n  width: 100%;\r\n  font-size: 35px;\r\n  margin: 25px 25px 25px 25px;\r\n  padding: 15px 15px 15px 15px;\r\n  text-align: center;\r\n  display: flex;\r\n  align-items: flex-end;\r\n  justify-content: center;\r\n}\r\n\r\n.add1 .add2{\r\n  background-size: cover;\r\n  text-align: left;\r\n}\r\n\r\n.textm{\r\n  border-radius: 10px;\r\n}\r\n\r\n.textm:hover{\r\n  background-color: rgb(230, 179, 121);\r\n}\r\n\r\n.rad{\r\n  transform: scale(3);\r\n  margin-left: 50px;\r\n  margin-right:30px;\r\n}\r\n\r\n.photobtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(231, 146, 49);\r\n}\r\n\r\n/*商品登録画面*/\r\n.farm-page {\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-page p{\r\n  font-size: large;\r\n}\r\n\r\n/*商品通報画面*/\r\n.notice-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 18px;\r\n}\r\n.notice-page h3{\r\n  color: rgb(70, 110, 83);\r\n  border-bottom:solid 1px #b3b3b3;\r\n}\r\n.notice-product{\r\n  padding: 20px;\r\n  text-align: left;\r\n}\r\n.notice-product img{\r\n  width: 30%;\r\n}\r\n\r\n/*FarmTeerについての画面*/\r\n.first-page{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n.slideBox {\r\n  width: 100%;\r\n  height:550px;\r\n  overflow: hidden;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n/* imgのみ */\r\n.item1 {\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  opacity: 0;\r\n  width: 880px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n  position: absolute;\r\n  -webkit-animation: anime 20s 0s infinite;\r\n  animation: anime 20s 0s infinite;\r\n}\r\n\r\n.item1:nth-of-type(2) {\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n\r\n.item1:nth-of-type(3) {\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n.item1:nth-of-type(4) {\r\n  -webkit-animation-delay: 15s;\r\n  animation-delay: 15s;\r\n}\r\n\r\n/* ふわっとアニメーション */\r\n@keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n@-webkit-keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.first-page .first{\r\n  width: 45%;\r\n  margin: auto auto 10px auto; \r\n}\r\n.first h2{\r\n  margin: 30px 0;\r\n  color: rgb(96, 151, 114);\r\n  text-align: center;\r\n}\r\n.first p{\r\n  text-align: left;\r\n  font-size: 15px;\r\n  line-height: 30px;\r\n}\r\n/*ガイド画面*/\r\n.guide-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n/*ユーザー管理者画面*/\r\n.top-page,.userdetail-page{\r\n  padding-top: 80px;\r\n  font-size: 16px;\r\n}\r\n.top-page h2{\r\n  width: 500px;\r\n  text-align: center;\r\n  padding:10px;\r\n}\r\n.list-form{\r\n  display: inline-block;\r\n  width: 40%;\r\n  height: 500px;\r\n}\r\n.edit-form{\r\n  display: inline-block;\r\n  background-color: #f3f2f2;\r\n  text-align: right;\r\n  width: 50%;\r\n  padding-left: 10%;\r\n  padding-right: 7%;\r\n  padding-bottom: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n.usertable{\r\n  margin-left: 80px;\r\n  width: 400px;\r\n}\r\n\r\n.top-page .general-button{\r\n  background: rgb(70, 110, 83);\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px 15px 30px 0;\r\n  color: whitesmoke;\r\n  font-size: 16px;\r\n  width: 100px;\r\n}\r\n\r\n.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{\r\n  background: rgb(54, 114, 57);\r\n}\r\n\r\n#error{\r\n  color: brown;\r\n}", ""]);
+=======
+exports.push([module.i, "* {\r\n    font-family: '\\30E1\\30A4\\30EA\\30AA';\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n    z-index: 10;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-text2{\r\n  float: left;\r\n  text-align: right;\r\n  width: 35%;\r\n}\r\n.footer-text2 img{\r\n  height: 270px;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: right;\r\n    color:#444;\r\n    float: left;\r\n    width: 60%;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button{\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*2020/11/20 Sugimori*/\r\n  .farmlogin{\r\n    font-size: 20px;\r\n  }\r\n\r\n  .form .farm-button:hover,.form .farm-button:active,.form .farm-button:focus, .farmbtn:hover {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n\r\n  .form .farm-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 20px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n/*Top画面レイアウト*/\r\n.photos {\r\n\tposition: relative;\r\n  text-align: center;\r\n  margin-bottom: 100px;\r\n\twidth: 100%;\r\n\theight: 250px;\r\n}\r\n.item2{\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  width: 880px;\r\n  position: absolute;\r\n}\r\n\r\n.top-layout{\r\n  display: flex;\r\n}\r\n.top-item-list{\r\n  width: 100%;\r\n  margin: 40px;\r\n  text-align: left;\r\n}\r\n.top-item-list img{\r\n  width: 250px;\r\n  margin-right: 10px;\r\n}\r\n.top-item-list h3{\r\n  color:rgb(96, 151, 114);\r\n  border-bottom:solid 1.5px rgb(96, 151, 114);\r\n}\r\n.top-font{\r\n  padding-left:20%;\r\n  text-align: left;\r\n  font-size: 20px;\r\n}\r\n.general-top{\r\n  padding-top: 90px;\r\n  text-align: right;\r\n}\r\n.general-top .koukoku{\r\n  padding-right: 14%;\r\n}\r\n\r\n/*商品詳細画面レイアウト*/\r\n.products-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n.title{\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n}\r\n.products-page img {\r\n  width: 70%;\r\n}\r\n.price{\r\n  font-size: 16px;\r\n  margin: 20px;\r\n}\r\n.product-layout{\r\n  font-size: 16px;\r\n  text-align: right;\r\n}\r\n.product{\r\n  text-align: left;\r\n  padding: 20px;\r\n  background-color: white;\r\n  margin-bottom: 20px;\r\n}\r\n.product-layout input{\r\n  background-color: white;\r\n  width: 500px;\r\n  margin: 0 0 10px 30px;\r\n  text-align: center;\r\n}\r\n\r\n/*購入画面*/\r\n.buy-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 16px;\r\n}\r\n\r\n/*農家管理者の画面*/\r\n.farm-top,list-form{\r\n    padding-top: 80px;\r\n    /*margin: auto auto 10px auto;*/\r\n}\r\n\r\n.farm-seller{\r\n  width: 80%;\r\n  background-color: #f3f2f2;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-top p{\r\n  padding-left: 20%;\r\n  text-align: left;\r\n  font-size: 50px;\r\n}\r\n\r\n.farm-top h1{\r\n  font-weight: bold;\r\n  font-size: 100px;\r\n}\r\n\r\n.farm-top h2{\r\n  padding-top: 30px;\r\n  font-size: 60px;\r\n}\r\n\r\n.farmk-size{\r\n  width: 60%;\r\n}\r\n\r\n.farmbtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(54, 107, 72);\r\n}\r\n\r\n.column {\r\n  height: 100vh;\r\n  width: 100%;\r\n  font-size: 35px;\r\n  margin: 25px 25px 25px 25px;\r\n  padding: 15px 15px 15px 15px;\r\n  text-align: center;\r\n  display: flex;\r\n  align-items: flex-end;\r\n  justify-content: center;\r\n}\r\n\r\n.add1 .add2{\r\n  background-size: cover;\r\n  text-align: left;\r\n}\r\n\r\n.textm{\r\n  border-radius: 10px;\r\n}\r\n\r\n.textm:hover{\r\n  background-color: rgb(230, 179, 121);\r\n}\r\n\r\n.rad{\r\n  transform: scale(3);\r\n  margin-left: 50px;\r\n  margin-right:30px;\r\n}\r\n\r\n.photobtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(231, 146, 49);\r\n}\r\n.form .goodtable{\r\n  width: 700px;\r\n  text-align: center;\r\n}\r\n\r\n/*商品登録画面*/\r\n.farm-page {\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-page p{\r\n  font-size: large;\r\n}\r\n\r\n/*商品通報画面*/\r\n.notice-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 18px;\r\n}\r\n.notice-page h3{\r\n  color: rgb(70, 110, 83);\r\n  border-bottom:solid 1px #b3b3b3;\r\n}\r\n.notice-product{\r\n  padding: 20px;\r\n  text-align: left;\r\n}\r\n.notice-product img{\r\n  width: 30%;\r\n}\r\n\r\n/*FarmTeerについての画面*/\r\n.first-page{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n.slideBox {\r\n  width: 100%;\r\n  height:550px;\r\n  overflow: hidden;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n/* imgのみ */\r\n.item1 {\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  opacity: 0;\r\n  width: 880px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n  position: absolute;\r\n  -webkit-animation: anime 20s 0s infinite;\r\n  animation: anime 20s 0s infinite;\r\n}\r\n\r\n.item1:nth-of-type(2) {\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n\r\n.item1:nth-of-type(3) {\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n.item1:nth-of-type(4) {\r\n  -webkit-animation-delay: 15s;\r\n  animation-delay: 15s;\r\n}\r\n\r\n/* ふわっとアニメーション */\r\n@keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n@-webkit-keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.first-page .first{\r\n  width: 45%;\r\n  margin: auto auto 10px auto; \r\n}\r\n.first h2{\r\n  margin: 30px 0;\r\n  color: rgb(96, 151, 114);\r\n  text-align: center;\r\n}\r\n.first p{\r\n  text-align: left;\r\n  font-size: 15px;\r\n  line-height: 30px;\r\n}\r\n/*ガイド画面*/\r\n.guide-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n/*ユーザー管理者画面*/\r\n.top-page,.userdetail-page{\r\n  padding-top: 80px;\r\n  font-size: 16px;\r\n}\r\n.top-page h2{\r\n  width: 500px;\r\n  text-align: center;\r\n  padding:10px;\r\n}\r\n.list-form{\r\n  display: inline-block;\r\n  width: 40%;\r\n  height: 500px;\r\n}\r\n.edit-form{\r\n  display: inline-block;\r\n  background-color: #f3f2f2;\r\n  text-align: right;\r\n  width: 50%;\r\n  padding-left: 10%;\r\n  padding-right: 7%;\r\n  padding-bottom: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n.usertable{\r\n  margin-left: 80px;\r\n  width: 400px;\r\n}\r\n\r\n.top-page .general-button{\r\n  background: rgb(70, 110, 83);\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px 15px 30px 0;\r\n  color: whitesmoke;\r\n  font-size: 16px;\r\n  width: 100px;\r\n}\r\n\r\n.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{\r\n  background: rgb(54, 114, 57);\r\n}\r\n\r\n#error{\r\n  color: brown;\r\n}", ""]);
+>>>>>>> d11005a36b0cdf419d6614fbfef869457b6f7666
 
 // exports
 
@@ -30676,46 +30680,18 @@ var defaultUnits = {
   'border-top-right-radius': px,
   'border-top-width': px,
   'border-width': px,
-  'border-block': px,
-  'border-block-end': px,
-  'border-block-end-width': px,
-  'border-block-start': px,
-  'border-block-start-width': px,
-  'border-block-width': px,
-  'border-inline': px,
-  'border-inline-end': px,
-  'border-inline-end-width': px,
-  'border-inline-start': px,
-  'border-inline-start-width': px,
-  'border-inline-width': px,
-  'border-start-start-radius': px,
-  'border-start-end-radius': px,
-  'border-end-start-radius': px,
-  'border-end-end-radius': px,
   // Margin properties
   margin: px,
   'margin-bottom': px,
   'margin-left': px,
   'margin-right': px,
   'margin-top': px,
-  'margin-block': px,
-  'margin-block-end': px,
-  'margin-block-start': px,
-  'margin-inline': px,
-  'margin-inline-end': px,
-  'margin-inline-start': px,
   // Padding properties
   padding: px,
   'padding-bottom': px,
   'padding-left': px,
   'padding-right': px,
   'padding-top': px,
-  'padding-block': px,
-  'padding-block-end': px,
-  'padding-block-start': px,
-  'padding-inline': px,
-  'padding-inline-end': px,
-  'padding-inline-start': px,
   // Mask properties
   'mask-position-x': px,
   'mask-position-y': px,
@@ -30732,13 +30708,6 @@ var defaultUnits = {
   left: px,
   top: px,
   right: px,
-  inset: px,
-  'inset-block': px,
-  'inset-block-end': px,
-  'inset-block-start': px,
-  'inset-inline': px,
-  'inset-inline-end': px,
-  'inset-inline-start': px,
   // Shadow properties
   'box-shadow': px,
   'text-shadow': px,
@@ -30780,7 +30749,6 @@ var defaultUnits = {
   // Some random properties
   'shape-margin': px,
   size: px,
-  gap: px,
   // Grid properties
   grid: px,
   'grid-gap': px,
@@ -30828,7 +30796,7 @@ var units = addCamelCasedVersion(defaultUnits);
  */
 
 function iterate(prop, value, options) {
-  if (value == null) return value;
+  if (!value) return value;
 
   if (Array.isArray(value)) {
     for (var i = 0; i < value.length; i++) {
@@ -30845,9 +30813,9 @@ function iterate(prop, value, options) {
       }
     }
   } else if (typeof value === 'number') {
-    var unit = options[prop] || units[prop]; // Add the unit if available, except for the special case of 0px.
+    var unit = options[prop] || units[prop];
 
-    if (unit && !(value === 0 && unit === px)) {
+    if (unit) {
       return typeof unit === 'function' ? unit(value).toString() : "" + value + unit;
     }
 
@@ -30949,7 +30917,7 @@ function () {
 
   _proto.addRule = function addRule(name, style, options) {
     var rule = this.rules.add(name, style, options);
-    if (rule) this.options.jss.plugins.onProcessRule(rule);
+    this.options.jss.plugins.onProcessRule(rule);
     return rule;
   }
   /**
@@ -31013,14 +30981,14 @@ function addScope(selector, scope) {
   return scoped;
 }
 
-function handleNestedGlobalContainerRule(rule, sheet) {
+function handleNestedGlobalContainerRule(rule) {
   var options = rule.options,
       style = rule.style;
   var rules = style ? style[at] : null;
   if (!rules) return;
 
   for (var name in rules) {
-    sheet.addRule(name, rules[name], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
+    options.sheet.addRule(name, rules[name], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
       selector: addScope(name, rule.selector)
     }));
   }
@@ -31028,14 +30996,14 @@ function handleNestedGlobalContainerRule(rule, sheet) {
   delete style[at];
 }
 
-function handlePrefixedGlobalRule(rule, sheet) {
+function handlePrefixedGlobalRule(rule) {
   var options = rule.options,
       style = rule.style;
 
   for (var prop in style) {
     if (prop[0] !== '@' || prop.substr(0, at.length) !== at) continue;
     var selector = addScope(prop.substr(at.length), rule.selector);
-    sheet.addRule(selector, style[prop], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
+    options.sheet.addRule(selector, style[prop], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
       selector: selector
     }));
     delete style[prop];
@@ -31076,10 +31044,10 @@ function jssGlobal() {
     return null;
   }
 
-  function onProcessRule(rule, sheet) {
-    if (rule.type !== 'style' || !sheet) return;
-    handleNestedGlobalContainerRule(rule, sheet);
-    handlePrefixedGlobalRule(rule, sheet);
+  function onProcessRule(rule) {
+    if (rule.type !== 'style') return;
+    handleNestedGlobalContainerRule(rule);
+    handlePrefixedGlobalRule(rule);
   }
 
   return {
@@ -31155,8 +31123,7 @@ function jssNested() {
   function getOptions(rule, container, prevOptions) {
     // Options has been already created, now we only increase index.
     if (prevOptions) return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, prevOptions, {
-      index: prevOptions.index + 1 // $FlowFixMe[prop-missing]
-
+      index: prevOptions.index + 1
     });
     var nestingLevel = rule.options.nestingLevel;
     nestingLevel = nestingLevel === undefined ? 1 : nestingLevel + 1;
@@ -31198,8 +31165,7 @@ function jssNested() {
         // Place conditional right after the parent rule to ensure right ordering.
         container.addRule(prop, {}, options) // Flow expects more options but they aren't required
         // And flow doesn't know this will always be a StyleRule which has the addRule method
-        // $FlowFixMe[incompatible-use]
-        // $FlowFixMe[prop-missing]
+        // $FlowFixMe
         .addRule(styleRule.key, style[prop], {
           selector: styleRule.selector
         });
@@ -31279,8 +31245,7 @@ __webpack_require__.r(__webpack_exports__);
 var now = Date.now();
 var fnValuesNs = "fnValues" + now;
 var fnRuleNs = "fnStyle" + ++now;
-
-var functionPlugin = function functionPlugin() {
+function functionPlugin() {
   return {
     onCreateRule: function onCreateRule(name, decl, options) {
       if (typeof decl !== 'function') return null;
@@ -31301,15 +31266,14 @@ var functionPlugin = function functionPlugin() {
         if (typeof value !== 'function') continue;
         delete style[prop];
         fnValues[prop] = value;
-      } // $FlowFixMe[prop-missing]
+      } // $FlowFixMe
 
 
       rule[fnValuesNs] = fnValues;
       return style;
     },
     onUpdate: function onUpdate(data, rule, sheet, options) {
-      var styleRule = rule; // $FlowFixMe[prop-missing]
-
+      var styleRule = rule;
       var fnRule = styleRule[fnRuleNs]; // If we have a style function, the entire rule is dynamic and style object
       // will be returned from that function.
 
@@ -31326,8 +31290,7 @@ var functionPlugin = function functionPlugin() {
             }
           }
         }
-      } // $FlowFixMe[prop-missing]
-
+      }
 
       var fnValues = styleRule[fnValuesNs]; // If we have a fn values map, it is a rule with function values.
 
@@ -31338,7 +31301,7 @@ var functionPlugin = function functionPlugin() {
       }
     }
   };
-};
+}
 
 /* harmony default export */ __webpack_exports__["default"] = (functionPlugin);
 
@@ -31436,7 +31399,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createRule", function() { return createRule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getDynamicStyles", function() { return getDynamicStyles; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hasCSSTOMSupport", function() { return hasCSSTOMSupport; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sheets", function() { return registry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sheets", function() { return sheets; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toCssValue", function() { return toCssValue; });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var is_in_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! is-in-browser */ "./node_modules/is-in-browser/dist/module.js");
@@ -31500,7 +31463,6 @@ var join = function join(value, by) {
 
   return result;
 };
-
 /**
  * Converts array values to string.
  *
@@ -31509,7 +31471,9 @@ var join = function join(value, by) {
  * `margin: [['5px', '10px'], '!important']` > `margin: 5px 10px !important;`
  * `color: ['red', !important]` > `color: red !important;`
  */
-var toCssValue = function toCssValue(value, ignoreImportant) {
+
+
+function toCssValue(value, ignoreImportant) {
   if (ignoreImportant === void 0) {
     ignoreImportant = false;
   }
@@ -31531,7 +31495,7 @@ var toCssValue = function toCssValue(value, ignoreImportant) {
   }
 
   return cssValue;
-};
+}
 
 /**
  * Indent a string.
@@ -31815,11 +31779,11 @@ function () {
     this.options = void 0;
     this.isProcessed = false;
     this.renderable = void 0;
-    this.key = key;
-    var atMatch = key.match(atRegExp);
-    this.at = atMatch ? atMatch[1] : 'unknown'; // Key might contain a unique suffix in case the `name` passed by user was duplicate.
+    this.key = key; // Key might contain a unique suffix in case the `name` passed by user was duplicate.
 
-    this.query = options.name || "@" + this.at;
+    this.query = options.name;
+    var atMatch = key.match(atRegExp);
+    this.at = atMatch ? atMatch[1] : 'unknown';
     this.options = options;
     this.rules = new RuleList(Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
       parent: this
@@ -32368,13 +32332,13 @@ function () {
     var options;
 
     if (typeof (arguments.length <= 0 ? undefined : arguments[0]) === 'string') {
-      name = arguments.length <= 0 ? undefined : arguments[0]; // $FlowFixMe[invalid-tuple-index]
+      name = arguments.length <= 0 ? undefined : arguments[0]; // $FlowFixMe
 
-      data = arguments.length <= 1 ? undefined : arguments[1]; // $FlowFixMe[invalid-tuple-index]
+      data = arguments.length <= 1 ? undefined : arguments[1]; // $FlowFixMe
 
       options = arguments.length <= 2 ? undefined : arguments[2];
     } else {
-      data = arguments.length <= 0 ? undefined : arguments[0]; // $FlowFixMe[invalid-tuple-index]
+      data = arguments.length <= 0 ? undefined : arguments[0]; // $FlowFixMe
 
       options = arguments.length <= 1 ? undefined : arguments[1];
       name = null;
@@ -32601,13 +32565,7 @@ function () {
 
   _proto.deleteRule = function deleteRule(name) {
     var rule = typeof name === 'object' ? name : this.rules.get(name);
-
-    if (!rule || // Style sheet was created without link: true and attached, in this case we
-    // won't be able to remove the CSS rule from the DOM.
-    this.attached && !rule.renderable) {
-      return false;
-    }
-
+    if (!rule) return false;
     this.rules.remove(rule);
 
     if (this.attached && rule.renderable && this.renderer) {
@@ -32714,7 +32672,7 @@ function () {
 
   _proto.onProcessStyle = function onProcessStyle(style, rule, sheet) {
     for (var i = 0; i < this.registry.onProcessStyle.length; i++) {
-      // $FlowFixMe[prop-missing]
+      // $FlowFixMe
       rule.style = this.registry.onProcessStyle[i](rule.style, rule, sheet);
     }
   }
@@ -32891,7 +32849,7 @@ function () {
  * each request in order to not leak sheets across requests.
  */
 
-var registry = new SheetsRegistry();
+var sheets = new SheetsRegistry();
 
 /* eslint-disable */
 // https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -32957,11 +32915,12 @@ var memoize = function memoize(fn) {
     return value;
   };
 };
-
 /**
  * Get a style property value.
  */
-var getPropertyValue = function getPropertyValue(cssRule, prop) {
+
+
+function getPropertyValue(cssRule, prop) {
   try {
     // Support CSSTOM.
     if (cssRule.attributeStyleMap) {
@@ -32973,12 +32932,13 @@ var getPropertyValue = function getPropertyValue(cssRule, prop) {
     // IE may throw if property is unknown.
     return '';
   }
-};
-
+}
 /**
  * Set a style property.
  */
-var setProperty = function setProperty(cssRule, prop, value) {
+
+
+function setProperty(cssRule, prop, value) {
   try {
     var cssValue = value;
 
@@ -33003,12 +32963,13 @@ var setProperty = function setProperty(cssRule, prop, value) {
   }
 
   return true;
-};
-
+}
 /**
  * Remove a style property.
  */
-var removeProperty = function removeProperty(cssRule, prop) {
+
+
+function removeProperty(cssRule, prop) {
   try {
     // Support CSSTOM.
     if (cssRule.attributeStyleMap) {
@@ -33019,17 +32980,18 @@ var removeProperty = function removeProperty(cssRule, prop) {
   } catch (err) {
      true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_2__["default"])(false, "[JSS] DOMException \"" + err.message + "\" was thrown. Tried to remove property \"" + prop + "\".") : undefined;
   }
-};
-
+}
 /**
  * Set the selector.
  */
-var setSelector = function setSelector(cssRule, selectorText) {
+
+
+function setSelector(cssRule, selectorText) {
   cssRule.selectorText = selectorText; // Return false if setter was not successful.
   // Currently works in chrome only.
 
   return cssRule.selectorText === selectorText;
-};
+}
 /**
  * Gets the `head` element upon the first call and caches it.
  * We assume it can't be null.
@@ -33093,11 +33055,11 @@ function findCommentNode(text) {
  * Find a node before which we can insert the sheet.
  */
 function findPrevNode(options) {
-  var registry$1 = registry.registry;
+  var registry = sheets.registry;
 
-  if (registry$1.length > 0) {
+  if (registry.length > 0) {
     // Try to insert before the next higher sheet.
-    var sheet = findHigherSheet(registry$1, options);
+    var sheet = findHigherSheet(registry, options);
 
     if (sheet && sheet.renderer) {
       return {
@@ -33107,7 +33069,7 @@ function findPrevNode(options) {
     } // Otherwise insert after the last attached.
 
 
-    sheet = findHighestSheet(registry$1, options);
+    sheet = findHighestSheet(registry, options);
 
     if (sheet && sheet.renderer) {
       return {
@@ -33173,6 +33135,13 @@ var getNonce = memoize(function () {
 });
 
 var _insertRule = function insertRule(container, rule, index) {
+  var maxIndex = container.cssRules.length; // In case previous insertion fails, passed index might be wrong
+
+  if (index === undefined || index > maxIndex) {
+    // eslint-disable-next-line no-param-reassign
+    index = maxIndex;
+  }
+
   try {
     if ('insertRule' in container) {
       var c = container;
@@ -33191,17 +33160,6 @@ var _insertRule = function insertRule(container, rule, index) {
   return container.cssRules[index];
 };
 
-var getValidRuleInsertionIndex = function getValidRuleInsertionIndex(container, index) {
-  var maxIndex = container.cssRules.length; // In case previous insertion fails, passed index might be wrong
-
-  if (index === undefined || index > maxIndex) {
-    // eslint-disable-next-line no-param-reassign
-    return maxIndex;
-  }
-
-  return index;
-};
-
 var createStyle = function createStyle() {
   var el = document.createElement('style'); // Without it, IE will have a broken source order specificity if we
   // insert rules after we insert the style tag.
@@ -33215,8 +33173,6 @@ var DomRenderer =
 /*#__PURE__*/
 function () {
   // HTMLStyleElement needs fixing https://github.com/facebook/flow/issues/2696
-  // Will be empty if link: true option is not set, because
-  // it is only for use together with insertRule API.
   function DomRenderer(sheet) {
     this.getPropertyValue = getPropertyValue;
     this.setProperty = setProperty;
@@ -33225,9 +33181,8 @@ function () {
     this.element = void 0;
     this.sheet = void 0;
     this.hasInsertedRules = false;
-    this.cssRules = [];
     // There is no sheet when the renderer is used from a standalone StyleRule.
-    if (sheet) registry.add(sheet);
+    if (sheet) sheets.add(sheet);
     this.sheet = sheet;
 
     var _ref = this.sheet ? this.sheet.options : {},
@@ -33268,15 +33223,8 @@ function () {
   ;
 
   _proto.detach = function detach() {
-    if (!this.sheet) return;
     var parentNode = this.element.parentNode;
-    if (parentNode) parentNode.removeChild(this.element); // In the most browsers, rules inserted using insertRule() API will be lost when style element is removed.
-    // Though IE will keep them and we need a consistent behavior.
-
-    if (this.sheet.options.link) {
-      this.cssRules = [];
-      this.element.textContent = '\n';
-    }
+    if (parentNode) parentNode.removeChild(this.element);
   }
   /**
    * Inject CSS string into element.
@@ -33319,46 +33267,39 @@ function () {
       var latestNativeParent = nativeParent;
 
       if (rule.type === 'conditional' || rule.type === 'keyframes') {
-        var _insertionIndex = getValidRuleInsertionIndex(nativeParent, index); // We need to render the container without children first.
-
-
+        // We need to render the container without children first.
         latestNativeParent = _insertRule(nativeParent, parent.toString({
           children: false
-        }), _insertionIndex);
+        }), index);
 
         if (latestNativeParent === false) {
           return false;
         }
-
-        this.refCssRule(rule, _insertionIndex, latestNativeParent);
       }
 
       this.insertRules(parent.rules, latestNativeParent);
       return latestNativeParent;
+    } // IE keeps the CSSStyleSheet after style node has been reattached,
+    // so we need to check if the `renderable` reference the right style sheet and not
+    // rerender those rules.
+
+
+    if (rule.renderable && rule.renderable.parentStyleSheet === this.element.sheet) {
+      return rule.renderable;
     }
 
     var ruleStr = rule.toString();
     if (!ruleStr) return false;
-    var insertionIndex = getValidRuleInsertionIndex(nativeParent, index);
 
-    var nativeRule = _insertRule(nativeParent, ruleStr, insertionIndex);
+    var nativeRule = _insertRule(nativeParent, ruleStr, index);
 
     if (nativeRule === false) {
       return false;
     }
 
     this.hasInsertedRules = true;
-    this.refCssRule(rule, insertionIndex, nativeRule);
+    rule.renderable = nativeRule;
     return nativeRule;
-  };
-
-  _proto.refCssRule = function refCssRule(rule, index, cssRule) {
-    rule.renderable = cssRule; // We only want to reference the top level rules, deleteRule API doesn't support removing nested rules
-    // like rules inside media queries or keyframes
-
-    if (rule.options.parent instanceof StyleSheet) {
-      this.cssRules[index] = cssRule;
-    }
   }
   /**
    * Delete a rule.
@@ -33370,7 +33311,6 @@ function () {
     var index = this.indexOf(cssRule);
     if (index === -1) return false;
     sheet.deleteRule(index);
-    this.cssRules.splice(index, 1);
     return true;
   }
   /**
@@ -33379,7 +33319,13 @@ function () {
   ;
 
   _proto.indexOf = function indexOf(cssRule) {
-    return this.cssRules.indexOf(cssRule);
+    var cssRules = this.element.sheet.cssRules;
+
+    for (var index = 0; index < cssRules.length; index++) {
+      if (cssRule === cssRules[index]) return index;
+    }
+
+    return -1;
   }
   /**
    * Generate a new CSS rule and replace the existing one.
@@ -33392,7 +33338,6 @@ function () {
     var index = this.indexOf(cssRule);
     if (index === -1) return false;
     this.element.sheet.deleteRule(index);
-    this.cssRules.splice(index, 1);
     return this.insertRule(rule, index);
   }
   /**
@@ -33414,7 +33359,7 @@ var Jss =
 function () {
   function Jss(options) {
     this.id = instanceCounter++;
-    this.version = "10.5.0";
+    this.version = "10.4.0";
     this.plugins = new PluginsRegistry();
     this.options = {
       id: {
@@ -33486,7 +33431,7 @@ function () {
         index = _options.index;
 
     if (typeof index !== 'number') {
-      index = registry.index === 0 ? 0 : registry.index + 1;
+      index = sheets.index === 0 ? 0 : sheets.index + 1;
     }
 
     var sheet = new StyleSheet(styles, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
@@ -33506,7 +33451,7 @@ function () {
 
   _proto.removeStyleSheet = function removeStyleSheet(sheet) {
     sheet.detach();
-    registry.remove(sheet);
+    sheets.remove(sheet);
     return this;
   }
   /**
@@ -33526,9 +33471,9 @@ function () {
 
     // Enable rule without name for inline styles.
     if (typeof name === 'object') {
-      // $FlowFixMe[incompatible-call]
+      // $FlowIgnore
       return this.createRule(undefined, name, style);
-    } // $FlowFixMe[incompatible-type]
+    } // $FlowIgnore
 
 
     var ruleOptions = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
@@ -33672,7 +33617,7 @@ function () {
  * Export a constant indicating if this browser has CSSTOM support.
  * https://developers.google.com/web/updates/2018/03/cssom
  */
-var hasCSSTOMSupport = typeof CSS === 'object' && CSS != null && 'number' in CSS;
+var hasCSSTOMSupport = typeof CSS !== 'undefined' && CSS && 'number' in CSS;
 /**
  * Creates a new instance of Jss.
  */
@@ -33684,9 +33629,9 @@ var create = function create(options) {
  * A global Jss instance.
  */
 
-var jss = create();
+var index = create();
 
-/* harmony default export */ __webpack_exports__["default"] = (jss);
+/* harmony default export */ __webpack_exports__["default"] = (index);
 
 
 
@@ -88505,7 +88450,11 @@ module.exports = "/images/img05.png?760d765275148f1018844f8e40b7d263";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 module.exports = "/images/sellerjoin.jpg?179bdc59a7cdf50348b94d2dad71b89e";
+=======
+module.exports = "/images/sellerjoin.jpg?eea758cf6a55e919d53f37547645ec35";
+>>>>>>> d11005a36b0cdf419d6614fbfef869457b6f7666
 
 /***/ }),
 
@@ -88604,6 +88553,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _general_payment__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./general/payment */ "./resources/js/components/general/payment.js");
 /* harmony import */ var _general_Creditadd__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./general/Creditadd */ "./resources/js/components/general/Creditadd.js");
 /* harmony import */ var _general_Confirmation__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./general/Confirmation */ "./resources/js/components/general/Confirmation.js");
+<<<<<<< HEAD
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Header */ "./resources/js/components/Header.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Footer */ "./resources/js/components/Footer.js");
 /* harmony import */ var _Guide__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Guide */ "./resources/js/components/Guide.js");
@@ -88617,6 +88567,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _farmteer_fMypage__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./farmteer/fMypage */ "./resources/js/components/farmteer/fMypage.js");
 /* harmony import */ var _general_Mypage__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./general/Mypage */ "./resources/js/components/general/Mypage.js");
 
+=======
+/* harmony import */ var _general_Fixed__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./general/Fixed */ "./resources/js/components/general/Fixed.js");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Header */ "./resources/js/components/Header.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Footer */ "./resources/js/components/Footer.js");
+/* harmony import */ var _Guide__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Guide */ "./resources/js/components/Guide.js");
+/* harmony import */ var _Farmteer__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Farmteer */ "./resources/js/components/Farmteer.js");
+/* harmony import */ var _farmteer_fLogin__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./farmteer/fLogin */ "./resources/js/components/farmteer/fLogin.js");
+/* harmony import */ var _farmteer_fRegister__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./farmteer/fRegister */ "./resources/js/components/farmteer/fRegister.js");
+/* harmony import */ var _farmteer_fTop__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./farmteer/fTop */ "./resources/js/components/farmteer/fTop.js");
+/* harmony import */ var _farmteer_fGoodsadd__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./farmteer/fGoodsadd */ "./resources/js/components/farmteer/fGoodsadd.js");
+/* harmony import */ var _farmteer_fGoods__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./farmteer/fGoods */ "./resources/js/components/farmteer/fGoods.js");
+/* harmony import */ var _farmteer_goodsDetail__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./farmteer/goodsDetail */ "./resources/js/components/farmteer/goodsDetail.js");
+>>>>>>> d11005a36b0cdf419d6614fbfef869457b6f7666
 
 
 
@@ -88650,7 +88613,7 @@ __webpack_require__.r(__webpack_exports__);
 }
 
 function App() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_13__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_14__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/",
     exact: true,
     component: _Top__WEBPACK_IMPORTED_MODULE_6__["default"]
@@ -88662,10 +88625,10 @@ function App() {
     component: _general_Register__WEBPACK_IMPORTED_MODULE_5__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/farmlogin",
-    component: _farmteer_fLogin__WEBPACK_IMPORTED_MODULE_17__["default"]
+    component: _farmteer_fLogin__WEBPACK_IMPORTED_MODULE_18__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/farmregister",
-    component: _farmteer_fRegister__WEBPACK_IMPORTED_MODULE_18__["default"]
+    component: _farmteer_fRegister__WEBPACK_IMPORTED_MODULE_19__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/products/notice/:id",
     component: _general_Notice__WEBPACK_IMPORTED_MODULE_8__["default"]
@@ -88674,13 +88637,13 @@ function App() {
     component: _general_Products__WEBPACK_IMPORTED_MODULE_7__["default"]
   }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/guide",
-    component: _Guide__WEBPACK_IMPORTED_MODULE_15__["default"]
+    component: _Guide__WEBPACK_IMPORTED_MODULE_16__["default"]
   }), "    ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/first",
-    component: _Farmteer__WEBPACK_IMPORTED_MODULE_16__["default"]
+    component: _Farmteer__WEBPACK_IMPORTED_MODULE_17__["default"]
   }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/farmtop",
-    component: _farmteer_fTop__WEBPACK_IMPORTED_MODULE_19__["default"]
+    component: _farmteer_fTop__WEBPACK_IMPORTED_MODULE_20__["default"]
   }), "   ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/buy/:id",
     component: _general_Buy__WEBPACK_IMPORTED_MODULE_9__["default"]
@@ -88694,12 +88657,19 @@ function App() {
     path: "/creditadd",
     component: _general_Creditadd__WEBPACK_IMPORTED_MODULE_11__["default"]
   }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+<<<<<<< HEAD
+=======
+    path: "/fixed/:id",
+    component: _general_Fixed__WEBPACK_IMPORTED_MODULE_13__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+>>>>>>> d11005a36b0cdf419d6614fbfef869457b6f7666
     path: "/fgoodsadd",
     component: _farmteer_fGoodsadd__WEBPACK_IMPORTED_MODULE_20__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/fgoods",
     component: _farmteer_fGoods__WEBPACK_IMPORTED_MODULE_21__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+<<<<<<< HEAD
     path: "/fgoods/:id",
     component: _farmteer_goodsDetail__WEBPACK_IMPORTED_MODULE_22__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
@@ -88709,6 +88679,11 @@ function App() {
     path: "/farmteer/mypage",
     component: _general_Mypage__WEBPACK_IMPORTED_MODULE_24__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Management__WEBPACK_IMPORTED_MODULE_3__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_14__["default"], null));
+=======
+    path: "/goods/:id",
+    component: _farmteer_goodsDetail__WEBPACK_IMPORTED_MODULE_23__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Management__WEBPACK_IMPORTED_MODULE_3__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_15__["default"], null));
+>>>>>>> d11005a36b0cdf419d6614fbfef869457b6f7666
 }
 
 if (document.getElementById('app')) {
@@ -89248,6 +89223,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -89265,6 +89241,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -89315,20 +89292,28 @@ function fGoods() {
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "farm-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "form"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     className: "general"
-  }, "\u5546\u54C1\u4E00\u89A7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, farmlists.map(function (farmlist) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "\u5546\u54C1\u4E00\u89A7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
+    className: "goodtable"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "\u5546\u54C1\u540D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", null, farmlists.map(function (farmlist) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", {
       key: farmlist.id
-    }, farmlist.goodsname, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-      href: "/fgoods/".concat(farmlist.id)
-    }, "\u8A73\u7D30"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, farmlist.goodsname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+      href: "/goods/".concat(farmlist.id)
+    }, "\u8A73\u7D30")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
       className: "general-button",
       onClick: function onClick() {
-        return deleteList(farmlist.id);
+        return deleteUser(farmlist.id);
       }
-    }, "\u524A\u9664"));
-  }))));
+    }, "\u524A\u9664")));
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/fgoodsadd"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "general-button"
+  }, "\u5546\u54C1\u3092\u8FFD\u52A0\u3059\u308B")))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (fGoods);
@@ -89559,11 +89544,13 @@ function fLogin() {
     placeholder: "xxxx@xx.xxx"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u30D1\u30B9\u30EF\u30FC\u30C9\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "password"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/fgoods"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "submit",
     className: "farm-button",
     value: "\u30ED\u30B0\u30A4\u30F3"
-  })))));
+  }))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (fLogin);
@@ -89854,7 +89841,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-function GoodsDetail(props) {
+function goodsDetail(props) {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
       _useState2 = _slicedToArray(_useState, 2),
       farmlist = _useState2[0],
@@ -89876,7 +89863,7 @@ function GoodsDetail(props) {
 
             case 2:
               response = _context.sent;
-              setFarmlist(response.data.farmlist);
+              setFarmlist(response.data.good);
 
             case 4:
             case "end":
@@ -89898,7 +89885,11 @@ function GoodsDetail(props) {
   }, "\u5546\u54C1\u8A73\u7D30\u30DA\u30FC\u30B8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u5BB6\u540D\uFF1A", farmlist.farmname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5546\u54C1\u540D\uFF1A", farmlist.goodsname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u6570\u91CF\uFF1A", farmlist.quantity), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8CDE\u5473\u671F\u9650\uFF1A", farmlist.expired), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5024\u6BB5\uFF1A", farmlist.price), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u9001\u6599\uFF1A", farmlist.carriage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u9001\u6599\u8CA0\u62C5\u8005\uFF1A", farmlist.burden), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u767A\u9001\u65B9\u6CD5\uFF1A", farmlist.howcarri), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u767A\u9001\u53EF\u80FD\u65E5\uFF1A", farmlist.carridays), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u767A\u9001\u5143\uFF1A", farmlist.carriarea), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u85AC\u540D\uFF1A", farmlist.pesticides), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5546\u54C1\u8A73\u7D30\uFF1A", farmlist.detail), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u30AB\u30C6\u30B4\u30EA\u30FC\uFF1A", farmlist.category_id), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5199\u771F\uFF1A", farmlist.photo), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u5BB6\u5229\u76CA\uFF1A", farmlist.profit), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u5BB6No\uFF1A", farmlist.members_id));
 }
 
+<<<<<<< HEAD
 /* harmony default export */ __webpack_exports__["default"] = (GoodsDetail);
+=======
+/* harmony default export */ __webpack_exports__["default"] = (goodsDetail);
+>>>>>>> d11005a36b0cdf419d6614fbfef869457b6f7666
 
 /***/ }),
 
@@ -89946,8 +89937,13 @@ function Buy(props) {
       good = _useState2[0],
       setGood = _useState2[1];
 
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState4 = _slicedToArray(_useState3, 2),
+      gusers = _useState4[0],
+      setgUsers = _useState4[1];
+
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
-    getGood();
+    getGood(), getgUsers();
   }, []);
 
   var getGood = /*#__PURE__*/function () {
@@ -89977,6 +89973,33 @@ function Buy(props) {
     };
   }();
 
+  var getgUsers = /*#__PURE__*/function () {
+    var _ref2 = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
+      var response;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/api/guser');
+
+            case 2:
+              response = _context2.sent;
+              setgUsers(response.data.gusers);
+
+            case 4:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }));
+
+    return function getgUsers() {
+      return _ref2.apply(this, arguments);
+    };
+  }();
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
     className: "buy-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -89988,9 +90011,19 @@ function Buy(props) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     src: "../../images/".concat(good.photo),
     alt: "\u5546\u54C1\u753B\u50CF"
-  }), good.goodsname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u6570\u91CF\uFF1A", good.quantity, "\u3000\u3000\u5024\u6BB5\uFF1A", good.price, "\u5186"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "\u652F\u6255\u3044\u65B9\u6CD5\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+  }), good.goodsname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u6570\u91CF\uFF1A", good.quantity, "\u3000\u3000\u5024\u6BB5\uFF1A", good.price, "\u5186"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "notice-product"
+  }, "\u652F\u6255\u3044\u65B9\u6CD5\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     to: "/payment"
-  }, props.name == null ? 'クレジット(手数料￥0)' : props.name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "\u652F\u6255\u3044\u91D1\u984D\uFF1A \uFFE5", good.price + good.carriage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "\u540D\u524D \u90F5\u4FBF\u756A\u53F7 \u4F4F\u6240"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+  }, props.name == null ? 'クレジット(手数料￥0)' : props.name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "notice-product"
+  }, "\u652F\u6255\u3044\u91D1\u984D\uFF1A \uFFE5", good.price + good.carriage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "notice-product"
+  }, gusers.map(function (guser) {
+    return guser.id == 1 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      key: guser.id
+    }, "\u540D\u524D\u3000\u3000\u3000\u3000:", guser.name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "\u90F5\u4FBF\u756A\u53F7\u3000\u3000:001-0000", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "\u90FD\u9053\u5E9C\u770C\u3000\u3000:", guser.pref, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "\u5E02\u533A\u753A\u6751\u3000\u3000:", guser.municipality, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "\u756A\u5730\u30FB\u5EFA\u7269\u540D:", guser.building) : null;
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     to: "/confirmation/".concat(good.id)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "general-button"
@@ -90016,6 +90049,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -90037,14 +90071,20 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+
 function Confirmation(props) {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
       _useState2 = _slicedToArray(_useState, 2),
       good = _useState2[0],
       setGood = _useState2[1];
 
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState4 = _slicedToArray(_useState3, 2),
+      gusers = _useState4[0],
+      setgUsers = _useState4[1];
+
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
-    getGood();
+    getGood(), getgUsers();
   }, []);
 
   var getGood = /*#__PURE__*/function () {
@@ -90074,6 +90114,42 @@ function Confirmation(props) {
     };
   }();
 
+  var getgUsers = /*#__PURE__*/function () {
+    var _ref2 = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
+      var response;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/api/guser');
+
+            case 2:
+              response = _context2.sent;
+              setgUsers(response.data.gusers);
+
+            case 4:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }));
+
+    return function getgUsers() {
+      return _ref2.apply(this, arguments);
+    };
+  }();
+
+  var update = function update(id) {
+    var data = {
+      state: false
+    };
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.put("/api/goods/".concat(id), data).then(function () {
+      getGood();
+    });
+  };
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
     className: "buy-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -90085,11 +90161,22 @@ function Confirmation(props) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     src: "../../images/".concat(good.photo),
     alt: "\u5546\u54C1\u753B\u50CF"
-  }), good.goodsname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u6570\u91CF\uFF1A", good.quantity, "\u3000\u3000\u5024\u6BB5\uFF1A", good.price, "\u5186"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "\u652F\u6255\u3044\u65B9\u6CD5\uFF1A \u30AF\u30EC\u30B8\u30C3\u30C8\u6255\u3044"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "\u652F\u6255\u3044\u91D1\u984D\uFF1A \uFFE5", good.price + good.carriage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "\u540D\u524D \u90F5\u4FBF\u756A\u53F7 \u4F4F\u6240"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+  }), good.goodsname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u6570\u91CF\uFF1A", good.quantity, "\u3000\u3000\u5024\u6BB5\uFF1A", good.price, "\u5186"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "notice-product"
+  }, "\u652F\u6255\u3044\u65B9\u6CD5\uFF1A \u30AF\u30EC\u30B8\u30C3\u30C8\u6255\u3044"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "notice-product"
+  }, "\u652F\u6255\u3044\u91D1\u984D\uFF1A \uFFE5", good.price + good.carriage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "notice-product"
+  }, gusers.map(function (guser) {
+    return guser.id == 1 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      key: guser.id
+    }, "\u540D\u524D\u3000\u3000\u3000\u3000:", guser.name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "\u90F5\u4FBF\u756A\u53F7\u3000\u3000:001-0000", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "\u90FD\u9053\u5E9C\u770C\u3000\u3000:", guser.pref, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "\u5E02\u533A\u753A\u6751\u3000\u3000:", guser.municipality, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "\u756A\u5730\u30FB\u5EFA\u7269\u540D:", guser.building) : null;
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/fixed/".concat(good.id)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "general-button",
-    type: "submit",
-    value: "\u8CFC\u5165\u3092\u78BA\u5B9A\u3059\u308B"
-  })));
+    onClick: update(good.id)
+  }, "\u8CFC\u5165\u3092\u78BA\u5B9A\u3059\u308B"))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Confirmation);
@@ -90166,6 +90253,110 @@ function Creditadd() {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Creditadd);
+
+/***/ }),
+
+/***/ "./resources/js/components/general/Fixed.js":
+/*!**************************************************!*\
+  !*** ./resources/js/components/general/Fixed.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Button */ "./node_modules/@material-ui/core/esm/Button/index.js");
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+{
+  /**farmlistから取ってきている情報をlogからの情報に変える */
+}
+
+function Fixed(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      good = _useState2[0],
+      setGood = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    getGood();
+  }, []);
+
+  var getGood = /*#__PURE__*/function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+      var response;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _context.next = 2;
+              return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("/api/log/".concat(props.match.params.id));
+
+            case 2:
+              response = _context.sent;
+              setGood(response.data.log);
+
+            case 4:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee);
+    }));
+
+    return function getGood() {
+      return _ref.apply(this, arguments);
+    };
+  }();
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
+    className: "buy-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+    className: "general"
+  }, "\u53D6\u5F15\u753B\u9762"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "notice-product"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "../../images/".concat(good.photo),
+    alt: "\u5546\u54C1\u753B\u50CF"
+  }), good.goods_name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "\u72B6\u614B\uFF1A", good.delistatus)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "evaluation"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    className: "comment"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    primary: "true",
+    className: "general-button"
+  }, "\u30B3\u30E1\u30F3\u30C8\u3059\u308B")))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Fixed);
 
 /***/ }),
 
@@ -90804,10 +90995,12 @@ function payment() {
     }), "********0000\u3000\u3000", credit.month + "/" + credit.year, "(\u624B\u6570\u6599\uFFE50)") : null;
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     to: "/creditadd"
-  }, "\u30AF\u30EC\u30B8\u30C3\u30C8\u30AB\u30FC\u30C9\u306E\u8FFD\u52A0")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+  }, "\u30AF\u30EC\u30B8\u30C3\u30C8\u30AB\u30FC\u30C9\u306E\u8FFD\u52A0")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/buy/:id"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "general-button",
     onClick: OK
-  }, "\u6C7A\u5B9A")));
+  }, "\u6C7A\u5B9A"))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (payment);
@@ -91147,8 +91340,8 @@ function MTop() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\farmteer\FarmTeer\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\farmteer\FarmTeer\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\farmteer\react-farmteer\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\farmteer\react-farmteer\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

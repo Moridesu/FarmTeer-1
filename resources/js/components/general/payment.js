@@ -42,7 +42,7 @@ function payment() {
                     ))}
                 </div>
                 <div><Link to="/creditadd">クレジットカードの追加</Link></div>
-                <button className="general-button" onClick={OK}>決定</button>
+                <Link to='/buy/:id'><button className="general-button" onClick={OK}>決定</button></Link>
             </div>
         </nav>
     )

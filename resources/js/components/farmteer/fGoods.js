@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
+import { Link } from 'react-router-dom';
 
 function fGoods() {
     const [farmlists, setFarmlists] = useState([]);
@@ -22,18 +23,30 @@ function fGoods() {
 
     return (
         <div className='farm-page'>
-            <h1 className='general'>商品一覧</h1>
-            <form>
-                <div>
-                    {farmlists.map(farmlist => (
-                        <p key={farmlist.id}>
-                            {farmlist.goodsname}
-                            <a href={`/fgoods/${farmlist.id}`}>詳細</a>
-                            <button className="general-button" onClick={() => deleteList(farmlist.id)}>削除</button>
-                        </p>
-                    ))}
-                </div>
-            </form>
+            <div className="form">
+                <h1 className='general'>商品一覧</h1>
+                <form>
+                    <table className='goodtable'>
+                        <thead>
+                            <tr>
+                                <th>商品名</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {farmlists.map(farmlist => (
+                                <tr key={farmlist.id}>
+                                    <td>{farmlist.goodsname}</td>
+                                    <td><a href={`/goods/${farmlist.id}`}>詳細</a></td>
+                                    <td><button className="general-button" onClick={() => deleteUser(farmlist.id)}>削除</button></td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                    <Link to="/fgoodsadd"><button className="general-button">商品を追加する</button></Link>
+                </form>
+            </div>
         </div>
     )
 }

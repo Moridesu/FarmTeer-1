@@ -58,13 +58,10 @@ function App() {
                     <Route path='/fixed/:id' component={Fixed} />
                     <Route path="/fgoodsadd" component={Fgoodsadd} />{/**商品登録画面 */}
                     <Route path="/fgoods" component={Fgoods} />{/**商品一覧 */}
-<<<<<<< HEAD
                     <Route path="/fgoods/:id" component={Fdetail} />{/**商品一覧詳細 */}
                     <Route path="/fMypage" component={Fmypage} />{/**マイページ詳細 */}
                     <Route path="/farmteer/mypage" component={Mypage} />{/**マイページ詳細 */}
-=======
                     <Route path="/goods/:id" component={Fdetail} />{/**商品一覧詳細 */}
->>>>>>> d11005a36b0cdf419d6614fbfef869457b6f7666
                     <Management />
                 </Switch>
             </div>

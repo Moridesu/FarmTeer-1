@@ -55,12 +55,15 @@ function Header() {
                     <Link to="/first">
                         <li className="nav-list-item"><HelpOutlineIcon />FarmTeerとは</li>
                     </Link>
-                    <li className="nav-list-item"><div className="nav-item-name"><AccountCircleIcon />新規登録・ログイン</div>
+                    <Link to="/fMypage">
+                        <li className="nav-list-item">マイページ</li>
+                    </Link>
+                    {/*<li className="nav-list-item"><div className="nav-item-name"><AccountCircleIcon />新規登録・ログイン</div>
                         <ul className="item">
                             <Link to="/farmteer/login"><li className="item-list">ログイン</li></Link><br />
                             <Link to="/farmteer/register"><li className="item-list">新規登録</li></Link>
                         </ul>
-                    </li>
+    </li>*/}
                 </ul>
             </div>
         </nav>

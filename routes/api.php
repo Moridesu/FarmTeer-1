@@ -113,10 +113,11 @@ Route::post('/goodsadd', function (Request $request){
     $gadd->save();
 });
 
-<<<<<<< HEAD
 /*　一般ユーザーの一覧表示*/
 Route::get('/gusers',function (Request $request){
-=======
+    $goods = App\farmlist::all();
+    return response()->json(['gusers' => $gusers]);
+});
 /**商品の更新 */
 Route::put('/goods/{id}',function(Request $request,$id){
     $good = App\farmlist::find($id);
@@ -126,7 +127,6 @@ Route::put('/goods/{id}',function(Request $request,$id){
 });
 
 Route::get('/guser',function(Request $request){
->>>>>>> d11005a36b0cdf419d6614fbfef869457b6f7666
     $gusers = App\general::all();
     return response()->json(['gusers' => $gusers]);
 });
